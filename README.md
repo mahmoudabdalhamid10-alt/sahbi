@@ -13,5 +13,4 @@ Payment contacts are blank in the backend so payment endpoints fail closed until
 
 The app includes local study tools, drafts, planning, games, accounts, manual-payment request support and AI chat/TTS. AI accuracy/availability varies. Local data is browser-only, not encrypted or synced. This is not a security certification.
 
-## Source download
-The complete sanitized source is in the ZIP archive in this repository. Extract it before building; filenames inside the archive are the canonical names.
+The embedded font is omitted in this sanitized source copy; system font fallback applies.
