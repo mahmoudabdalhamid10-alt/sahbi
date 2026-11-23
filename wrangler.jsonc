@@ -1,0 +1,26 @@
+{
+  "name": "sahbi-assistant",
+  "main": "worker-single.js",
+  "compatibility_date": "2026-11-23",
+  "workers_dev": true,
+  "kv_namespaces": [
+    {
+      "binding": "USAGE",
+      "id": "KV_ID_PLACEHOLDER"
+    }
+  ],
+  "vars": {
+    "GEMINI_MODEL": "gemini-3.5-flash-lite",
+    "DAILY_FREE": "20"
+  },
+  "observability": {
+    "enabled": false
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "sahbi-accounts",
+      "database_id": "DATABASE_ID_PLACEHOLDER"
+    }
+  ]
+}
